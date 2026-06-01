@@ -40,7 +40,14 @@ jobs:
           path: '.'
       - name: 'Create env file'
         run: |
-          echo "${{ secrets.ENV_FILE }}" > .env
+          touch .env
+          echo VUE_APP_FIREBASE_API_KEY=${{ vars.VUE_APP_FIREBASE_API_KEY }} > .env
+          echo VUE_APP_FIREBASE_AUTH_DOMAIN=${{ vars.VUE_APP_FIREBASE_AUTH_DOMAIN }} > .env
+          echo VUE_APP_FIREBASE_PROJECT_ID=${{ vars.VUE_APP_FIREBASE_PROJECT_ID }} > .env
+          echo VUE_APP_FIREBASE_STORAGE_BUCKET=${{ vars.VUE_APP_FIREBASE_STORAGE_BUCKET }} > .env
+          echo VUE_APP_FIREBASE_MESSAGING_SENDER_ID=${{ vars.VUE_APP_FIREBASE_MESSAGING_SENDER_ID }} > .env
+          echo VUE_APP_FIREBASE_APP_ID=${{ vars.VUE_APP_FIREBASE_APP_ID }} > .env
+          cat .env
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
