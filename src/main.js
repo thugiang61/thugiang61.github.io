@@ -1,3 +1,5 @@
+// cmt cua project thi coi trg commit Remove unecessary comments a
+
 import { createApp } from "vue";
 import { MotionPlugin } from "@vueuse/motion";
 import router from "@/router/index";

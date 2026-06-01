@@ -11,6 +11,7 @@
     </Transition>
 
     <TheHeader show-title />
+
     <div class="grid-layout">
       <div class="left-column">
         <ProjectInfo :project="currentProject" :show-element="showElement" />

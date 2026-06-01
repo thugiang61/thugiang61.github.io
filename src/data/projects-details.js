@@ -57,9 +57,9 @@ export const workProjects = [
     name: "API customer order",
     agency: "LogiVietfrance",
     year: "2022 - now",
-    client: "SOGET SA",
+    client: "SOGET S.A.",
     role: "Back-end developer",
-    technologies: "C#, .NET, SQL, Newtonsoft, FluentValidation,...",
+    technologies: "C#, .NET, SQL, Keycloak, Newtonsoft, FluentValidation,...",
     summary:
       "This platform provides transmission and tracking system for transport orders at every stage of their journey. This solution is accessible either through web access or by directly integrating it with Transportation Management System (TMS) using an API key 🚚",
     challenges: [
@@ -78,7 +78,7 @@ export const workProjects = [
     name: "Customer order web",
     agency: "LogiVietfrance",
     year: "2022 - now",
-    client: "SOGET SA",
+    client: "SOGET S.A.",
     role: "Front-end developer",
     technologies: "HTML, SCSS, VueJS,  Buefy, Bulma, Keycloak",
     summary:
@@ -95,7 +95,7 @@ export const workProjects = [
     name: "Plan-s web",
     agency: "LogiVietfrance",
     year: "2022",
-    client: "Logi Railway",
+    client: "LogiYonne",
     role: "Full-stack developer",
     technologies:
       "HTML, SCSS, ThreeJS, jsPDF, VueJS,  Buefy, Bulma, Firebase, .NET",

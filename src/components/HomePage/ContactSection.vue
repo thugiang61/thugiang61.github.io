@@ -17,7 +17,7 @@
         type="text"
         name="subject"
         class="input-field"
-        placeholder="Work offer from the USA"
+        placeholder="Work offer from USA"
       />
 
       <label>Email</label>

@@ -25,7 +25,7 @@
             What I have learnt at school and from my job as well as some
             subjects I'm studying hard right now:
             <a href="./NguyenThanhThuGiang_CV.pdf" target="_blank"
-              >My full CV/ résumé</a
+              >My CV/ résumé</a
             >
           </p>
           <div class="skills-list">
@@ -55,10 +55,13 @@
 
       <h1>Find me on social platform</h1>
       <p>
-        Facebook:
-        <a target="_blank" href="https://www.facebook.com/thugiang.nguyenthanh"
-          >@thugiang</a
+        Linkedin:
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/giang-nguyen-aba339267/"
         >
+          @GiangNguyen
+        </a>
       </p>
       <p>
         Github:
@@ -73,12 +76,12 @@
         Tel:
         <a @click="copyToClipboard(phone)">{{ phone }}</a>
       </p>
-      <p>
+      <!-- <p>
         (Also&nbsp;my&nbsp;<a href="https://zalo.me/pc" target="_blank">Zalo</a
-        >&nbsp;and&nbsp;<a href="https:/whatsapp.com/" target="_blank"
+        >&nbsp;and&nbsp;<a href="https://whatsapp.com" target="_blank"
           >Whatsapp</a
         >&nbsp;number)
-      </p>
+      </p> -->
     </div>
   </div>
 
